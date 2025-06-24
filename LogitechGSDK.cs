@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Specialized;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Text;
@@ -99,7 +97,6 @@ public class LogitechGSDK
         public bool gameSettingsEnabled;
         public bool allowGameSettings;
     }
-
 
     [StructLayout(LayoutKind.Sequential, Pack = 2)]
     public struct DIJOYSTATE2ENGINES

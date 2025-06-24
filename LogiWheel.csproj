@@ -51,6 +51,9 @@
 		<Reference Include="System.Threading.Tasks.Extensions">
     <HintPath>$(GamePath)Resonite_Data\Managed\System.Threading.Tasks.Extensions.dll</HintPath>
 		</Reference>
+		<Reference Include="UnityFrooxEngineRunner">
+    <HintPath>$(GamePath)Resonite_Data\Managed\UnityFrooxEngineRunner.dll</HintPath>
+		</Reference>
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(CopyToMods)'=='true'">

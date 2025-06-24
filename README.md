@@ -15,6 +15,8 @@ Plug your wheel setup in and it should be picked up and start dumping the wheels
 - [ ] Stop/Remove ``LogiWheel - Values`` slot if controller is unplugged
 - [ ] Changable update rate
 - [ ] Stop updating values when not focused on app(Likely will make this an option)
+- [ ] Option to select what controller index to output
+- [ ] Abilitiy to use multiple controllers at once
 
 ## Note
 This was simply a funny project I wanted to do cause I have this wheel so if you find use for this then so be it, I likely will make an osc version of this as a standalone exe or something down the road so it doesn't need to be a mod but for now this works and is still fun to mess with.
